@@ -1,15 +1,21 @@
 <template>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">NuxtJS</a>
+      <nuxt-link class="navbar-brand" to="/">NuxtJS</nuxt-link>
 
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+          <li class="nav-item">
+            <nuxt-link exact active-class="active" class="nav-link" to="/">Home</nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Users</a>
+            <nuxt-link no-prefetch exact active-class="active" class="nav-link" to="/users">Users</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link no-prefetch exact active-class="active" class="nav-link" to="/about">About</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link no-prefetch exact active-class="active" class="nav-link" to="/login">Login</nuxt-link>
           </li>
         </ul>
       </div>
