@@ -15,11 +15,11 @@
     "bootstrap": "^4.3.1",
     "cross-env": "^5.2.0",
     "isomorphic-fetch": "^2.2.1",
-    "nuxt": "^2.4.0"
+    "nuxt": "^2.7.1"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
-    "nodemon": "^1.18.9",
+    "nodemon": "^1.19.1",
     "sass-loader": "^7.1.0"
   }
 }
